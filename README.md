@@ -1,6 +1,6 @@
 # Project
 
-This task refers to the [Kaggle competition](https://www.kaggle.com/c/digit-recognizer/) to classify handwritten digits using the famous MNIST data. It consists of files to build the model responsible for fitting and predicting, load data from training and test set and generate the submission file. Also, there is a file to test how well the classifier chosen is doing based on 30% of the training set after fitting the other 70%. The digits that are badly predicted are displayed altogether.
+This task refers to the [Kaggle competition](https://www.kaggle.com/c/digit-recognizer/) to classify handwritten digits using the famous MNIST data. It consists of files to build the model responsible for fitting and predicting, load data from training and test set and generate the submission file. Also, there is a file to test how well the classifier chosen is doing on 30% of the training set after fitting the other 70%. The digits that are badly predicted are displayed altogether.
 
 # Platform
 
