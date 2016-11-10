@@ -5,7 +5,8 @@ import numpy as np
 import cPickle
 
 def fit(X, y):
-    clf = MLPClassifier(hidden_layer_sizes=(450, 300, 150), max_iter=150, alpha=1e-2, solver='sgd', verbose=10, tol=1e-4, random_state=1, learning_rate_init=.1)
+    # neural network with five hidden layers
+    clf = MLPClassifier(hidden_layer_sizes=(576, 400, 256, 144, 64), max_iter=150, alpha=1e-4, solver='sgd', verbose=10, tol=1e-6, random_state=1, learning_rate_init=.1) #261
 
     print 'Training...'
     clf.fit(X, y)
